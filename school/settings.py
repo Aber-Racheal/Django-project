@@ -38,7 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     # 'classroom',
-    # 'teacher',
+    'teacher',
     # 'course',
     'student'
 ]
@@ -81,6 +81,10 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': BASE_DIR / 'db.sqlite3',
+        'USER': 'studen',
+        'PASSWORD': 'nehemiahkamolu',
+        'HOST': 'localhost', 
+        'PORT': '5432'
     }
 }
 
